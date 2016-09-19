@@ -1,0 +1,36 @@
+Developing Data Products Course Project
+========================================================
+author: Dan Smith
+date: 9/19/2016
+autosize: true
+
+Cars Data Set
+========================================================
+
+This presentation will introduce the web app created to explore the mtcars data set.
+
+Web App
+========================================================
+
+The mtcars data set was used to show the trends that different
+factors have on mpg attained from vehicles.
+
+
+Slide With Code
+========================================================
+
+```{r}
+summary(mtcars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(mtcars)
+```
+
+Summary
+========================================================
+In the web app, select the variable (e.g. wt) to view
+what happens with mpg as that variable changes.
